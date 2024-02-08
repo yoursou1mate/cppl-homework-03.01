@@ -22,12 +22,12 @@ private:
 class smart_array {
 private:
     int* arr;
-    int size;
-    int arr_length = 0;
+    unsigned size;
+    unsigned arr_length = 0;
 public:
     smart_array (int size): arr(new int[size]), size(size)
     {
-        std::cout << "Cconstructor worked" << std::endl;
+        std::cout << "Constructor worked" << std::endl;
     }
     
     auto add_element (int new_element)
