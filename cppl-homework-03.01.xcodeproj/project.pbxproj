@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0022A8272B721DEA00D7FE07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0022A8262B721DEA00D7FE07 /* main.cpp */; };
-		0022A82E2B73A48A00D7FE07 /* main.cp in Sources */ = {isa = PBXBuildFile; fileRef = 0022A82D2B73A48A00D7FE07 /* main.cp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		0022A8232B721DEA00D7FE07 /* cppl-homework-03.01 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cppl-homework-03.01"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0022A8262B721DEA00D7FE07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0022A82D2B73A48A00D7FE07 /* main.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cp; path = "../../cppl-homework-03.02/main.cp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				0022A8262B721DEA00D7FE07 /* main.cpp */,
-				0022A82D2B73A48A00D7FE07 /* main.cp */,
 			);
 			path = "cppl-homework-03.01";
 			sourceTree = "<group>";
@@ -123,7 +120,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0022A8272B721DEA00D7FE07 /* main.cpp in Sources */,
-				0022A82E2B73A48A00D7FE07 /* main.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

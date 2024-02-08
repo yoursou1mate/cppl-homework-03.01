@@ -23,7 +23,7 @@ class smart_array {
 private:
     int* arr;
     int size;
-    unsigned arr_length = 0;
+    int arr_length = 0;
 public:
     smart_array (int size): arr(new int[size]), size(size)
     {
@@ -45,7 +45,14 @@ public:
     
     int get_element (int index)
         {
-        return arr[index];
+        if(index < size && index >= 0)
+        {
+            return arr[index];
+        }
+        else
+        {
+            throw CheckError ("Element index error. Wrong index");
+        }
         };
 };
 
@@ -59,7 +66,7 @@ int main(int argc, const char * argv[]) {
         arr.add_element(14);
         arr.add_element(15);
 
-        std::cout << arr.get_element(1) << std::endl;
+        std::cout << arr.get_element(4) << std::endl;
     }
     catch (const std::exception& ex) {
         std::cout << ex.what() << std::endl;
